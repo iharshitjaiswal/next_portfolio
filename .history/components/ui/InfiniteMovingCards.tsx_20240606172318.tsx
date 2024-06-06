@@ -90,8 +90,8 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             //   change md:w-[450px] to md:w-[60vw] , px-8 py-6 to p-16, border-slate-700 to border-slate-800
-            className="w-[90vw] max-w-full relative rounded-2xl border border-b-0
-            flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw] overflow-clip"
+            className="w-[50vw] h-[50vh] max-w-full relative rounded-2xl border border-b-0
+             flex-shrink-0 border-slate-800 p-5 md:p-12 md:w-[50vw] md:h-[60vh] sm:w-[80vw]"
             style={{
               background: "rgb(4,7,29)",
               backgroundColor:
