@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 import { cn } from "@/utils/cn";
+import { navItems } from "@/data";
 
 export const PinContainer = ({
   children,
